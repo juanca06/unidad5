@@ -1,0 +1,94 @@
+/*color de la linea de arriba*/
+#linea{
+    width: 100%;
+    height: 5px;
+    background: #FDEDEC;
+}
+
+/*color de la barra de menu*/
+#header{
+    width: 100%;
+    height: 90px;
+    background: #943126;/*#1A5276;*/
+}
+
+
+/**/
+#header #centro1{
+    width: 1450px; 
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}   
+
+#header #centro1 #logo{
+    width: 500px; 
+    border: 0px solid;
+    float: left;
+}
+
+
+#header img{
+    float: left;
+    margin: 7px 250px;
+}
+
+
+/*Menu*/
+
+#header #menu{
+    width: 800px;
+    border: 0px solid; 
+    float: right;
+}
+
+#header #menu ul li{
+    display: inline-block;
+    margin: 50px 22px;
+}
+
+#header #menu ul li a{
+    color: #ffffff ;
+    text-decoration: none;
+    padding: 7px 0px;
+    margin: 0px 1px;
+    display: block;
+}
+
+/*sombreado al pasar el cursor*/
+#header #menu ul li a:hover{ 
+    background: #7B241C; /*#2E86C1;*/ 
+}
+
+
+/*Banner*/
+
+.banner{
+    background: #C69292 repeat 13px 0;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
+    padding: 25px 0;
+}
+
+/*Texto*/
+
+#texto{
+    padding: 10px 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #FFF8F8;
+}
+
+
+footer {
+    background: #943126; /*#1A5276;*/
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
